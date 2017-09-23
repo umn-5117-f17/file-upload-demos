@@ -1,0 +1,14 @@
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+
+<form action="/upload-file-form" enctype="multipart/form-data" method="post" id="theform">
+  <p>
+    <input id="theinputfield" type="file" name="thefile">
+  </p>
+  <p>
+    <input type="submit" value="Send file (submit)" id="theSubmitButton">
+    <input type="button" value="Send file (ajax)" id="theAjaxButton">
+  </p>
+</form>
+
+<div id="ajaxResponse">(...)</div>
